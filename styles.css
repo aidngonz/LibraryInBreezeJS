@@ -1,0 +1,61 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    padding: 30px;
+    background-color: var(--cream);
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    margin-left: 15px;
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(168, 129, 82);
+    background-color: rgb(255, 240, 217);
+    padding: 7px;
+}
+
+#author,
+#title, 
+#pages,
+#description {
+  width: 100%;
+  padding: 15px 0 5px 0;
+  background-color: var(--cream);
+  border: none;
+  border-bottom: 2px dotted;
+  color: var(--blue);
+}
+
+#submit {
+    background-color: antiquewhite;
+    border: none;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px
+}
+
+#formHolder {
+    margin: 10px;
+    background-color: rgb(255, 227, 192);
+    margin: none;
+}
+
+#newBookH3 {
+    margin-left: 15px;
+    font-size: 35px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(168, 129, 82);
+}
+
+#container {
+    margin: 10px;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-size: large;
+    background-color: rgb(250, 224, 200);
+}
